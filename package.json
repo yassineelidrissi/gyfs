@@ -1,0 +1,29 @@
+{
+  "name": "ma3gaz",
+  "version": "1.0.0",
+  "description": "This is a package sepcialize in generating templates using YAML files and a lot of brilliant features",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"  
+  },
+  "bin": {
+    "ma3gaz": "./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yassineelidrissi/ma3gaz.git"
+  },
+  "author": "yassineelidrissi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yassineelidrissi/ma3gaz/issues"
+  },
+  "homepage": "https://github.com/yassineelidrissi/ma3gaz#readme",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "simple-git": "^3.22.0",
+    "yargs": "^17.7.2"
+  }
+}
