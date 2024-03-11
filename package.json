@@ -1,25 +1,25 @@
 {
-  "name": "ma3gaz",
+  "name": "gyfs",
   "version": "1.0.0",
-  "description": "This is a package sepcialize in generating templates using YAML files and a lot of brilliant features",
+  "description": "gyfs stands for [Generate Yaml File Structure] is an innovative scaffolding tool that simplifies the process of initializing and configuring new software projects",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node src/index.js"  
   },
   "bin": {
-    "ma3gaz": "./src/index.js"
+    "gyfs": "./src/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yassineelidrissi/ma3gaz.git"
+    "url": "git+https://github.com/yassineelidrissi/gyfs.git"
   },
   "author": "yassineelidrissi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yassineelidrissi/ma3gaz/issues"
+    "url": "https://github.com/yassineelidrissi/gyfs/issues"
   },
-  "homepage": "https://github.com/yassineelidrissi/ma3gaz#readme",
+  "homepage": "https://github.com/yassineelidrissi/gyfs#readme",
   "dependencies": {
     "fs-extra": "^11.2.0",
     "js-yaml": "^4.1.0",
