@@ -81,7 +81,7 @@ projectName:
 
 const argv = yargs(hideBin(process.argv))
   .command('init', 'Generate a sample YAML configuration file', () => {
-    const filePath = path.join(process.cwd(), 'sinomom-file.yaml');
+    const filePath = path.join(process.cwd(), 'gyfs-file.yaml');
     fs.writeFileSync(filePath, sampleYamlContent);
     console.log(`Sample YAML configuration file has been generated at: ${filePath}`);
   })
