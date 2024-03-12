@@ -91,7 +91,7 @@ gyfs --name MyAwesomeProject --yaml ./gyfs-file.yaml
 
 To initialize a Git repository along with your project:
 ```bash
-gyfs --name MyAwesomeProject --yaml ./sinomom-file.yaml --git
+gyfs --name MyAwesomeProject --yaml ./gyfs-file.yaml --git
 ```
 This will create a new Git repository in the project directory.
 
